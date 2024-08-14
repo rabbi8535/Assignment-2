@@ -31,14 +31,14 @@ body {
 /* nav section*/
 
 header {
-    max-width: 1440px;
+    max-width: 1140px;
     margin: auto;
 }
 
 header nav {
     /* border: 1px solid red; */
-    max-width: 1140;
-    margin: 3% 2%;
+    width: 90%;
+    margin: 3% auto;
     display: flex;
     justify-content: space-between;
 
@@ -81,7 +81,7 @@ header nav a {
 
 .hero {
     /* border: 1px solid red; */
-    max-width: 1440px;
+    width: 90%;
     margin: 10% auto;
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 
@@ -214,7 +214,7 @@ header nav a {
 @media screen and (min-width:280px) and (max-width:700px) {
 
     header {
-        margin: 10% 5%;
+        margin: 10% auto;
     }
 
     /* nav section */
@@ -324,15 +324,16 @@ header nav a {
 
 /* main section*/
 .main{
-    max-width: 1440px;
-    margin: 10% auto;
+    max-width: 1140px;
+    margin:auto ;
+   
 }
 
 /* main habit section*/
 
 .habit{
-    border: 1px solid red;
-    margin: 5%;
+    width: 90%;
+    margin: 5% auto;
 }
 
 .habit .tittle{
@@ -352,6 +353,7 @@ header nav a {
 }
 
 .habit .cards{
+    width: 90%;
     margin-top: 7%;
     display: flex;
     gap: 30px;
@@ -382,5 +384,87 @@ header nav a {
     font-size: 0.7rem;
     color: rgba(255,255,255,0.5);
     margin: 10px 0px;
+}
+
+
+/* main runnig section*/
+
+.runing{
+    width: 85%;
+    margin: 5% auto;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(34,34,34,1);
+    /* gap: 20px; */
+    border-radius: 16px;
+    
+}
+.runing button{
+    margin-top: 0px;
+}
+
+.runing .tittle{
+    width: 50%;
+    
+}
+.runing .tittle h1{
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 14px 0px;
+}
+
+.runing .tittle p{
+    font-size: 1rem;
+    color: rgba(255,255,255,0.5);
+    margin: 14px 0px;
+}
+
+.runing .img{
+    max-width: 500px;
+    max-height: 100%;
+    border-radius: 30px;
+    padding-left: 5%;
+}
+
+.runing .img img{
+    width: 90%;
+    margin: 5% auto;
+    border-radius: 16px;
+}
+
+
+/* responsive runing section*/
+
+@media screen and (min-width:280px) and (max-width:700px)  {
+    .runing {
+        width: 95%;
+        flex-direction: column;
+        
+        
+    }
+
+    .runing .tittle{
+        width: 90%;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+    .runing .img {
+        width: 100%;
+        margin: auto;
+        
+    }
+    .runing .img img{
+        width: 90%;
+       
+    }
+    .runing button{
+        width: 100%;
+        margin: auto;
+        font-size: 1rem;
+    }
 }
 
