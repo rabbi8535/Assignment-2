@@ -614,7 +614,7 @@ header nav a {
 }
 
 .bmi .calculator .container{
-    width: 90%;
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -663,18 +663,18 @@ header nav a {
 
 .bmi .calculator .container .right form input,select{
     display: inline-block;
-    width: 40%;
+    width: 45%;
     border: none;
     border-radius: 8px;
     color:rgba(255,255,255,0.3); ;
     background: rgba(255, 255, 255, 0.1);
-    padding: 12px 40px 12px 20px;
+    padding: 12px 10px 12px 20px;
     margin: 5px 0;
     cursor: pointer;
     
 }
 .bmi .calculator .container .right form #activity{
-    width: 81%;
+    width: 91%;
     
 }
 
@@ -697,7 +697,7 @@ header nav a {
         width: 100%;
         margin: 10% auto;
     }
-
+    
     
 }
 
@@ -713,5 +713,162 @@ header nav a {
 }
 
 
+
+/* main team section */
+
+
+
+.team{
+   
+    width: 90%;
+    margin: 10% auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.team .tittle h1{
+    font-size: 2rem;
+
+}
+
+.team .tittle p{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 1% 0;
+    margin-bottom: 10%;
+}
+
+.team .cards > div{
+    position: relative;
+    max-width: 450px;
+    max-height: 400px;
+
+}
+
+.team .cards div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    
+    
+}
+
+.team .cards {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2%;
+    cursor: pointer;
+   
+}
+
+.team .cards  div h4{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    text-align: left;
+    font-size: 0.8rem;
+
+}
+
+.team .cards  div h4 span{
+    font-size: 0.5rem;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+
+/* responsive for team section*/
+
+@media screen and (min-width:280px) and (max-width:700px) {
+    .team .cards {
+   
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-bottom: 20%;
+       
+       
+    }
+
+    .team .cards .div-1, .div-4{
+        display: none;
+    }
+}
+
+/* footer section*/
+footer{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 10%;
+}
+
+footer .container{
+    width: 90%;
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+footer .container > div{
+    flex-basis: 25%;
+    margin: 10% 0;
+    gap: 20px;
+}
+footer .container .div-1{
+    flex-basis: 30%;
+    padding-right: 20px;
+}
+footer .container .div-1 p{
+    font-size: 0.8rem;
+    color:rgba(255,255,255,0.5) ;
+    line-height: 1.5rem;
+}
+footer .container .div-1 h1{
+    font-size: 4rem;
+    margin-bottom: 5%;
+    color: #BD4431;
+}
+footer .container ul {
+    list-style: none;
+}
+footer .container ul li {
+    padding: 10px 0px;
+    margin-top: 10px;
+    color:rgba(255,255,255,0.5) ;
+}
+
+footer .container h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+ #copyright{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 2%;
+    text-align: center;
+    
+}
+
+
+/* responsive for footer section*/
+
+@media screen and (min-width:280px) and (max-width:700px){
+    footer .container{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+        margin: auto;
+    }
+
+    footer .container > div{
+        flex-basis: 50%;
+        
+        
+    }
+}
 
 
