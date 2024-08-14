@@ -179,7 +179,7 @@ header nav a {
 }
 
 .hero .container .left h1 {
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: 900;
     line-height: 120%;
 
@@ -222,8 +222,8 @@ header nav a {
   
     header nav .fa{
         display: block;
-        font-size: 2.5rem;
-        padding: 15% 3%;
+        font-size: 2rem;
+        padding: 1rem;
        
     }
 
@@ -249,7 +249,7 @@ header nav a {
     }
 
     .hero .container .left h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .hero .container .left p {
@@ -294,7 +294,7 @@ header nav a {
 
 }
 
-@media screen and  (max-width:992px){
+@media screen and (max-width:701px)  (max-width:992px){
 
     .hero .container {
 
@@ -315,7 +315,7 @@ header nav a {
         
     }
     .hero .container .left h1 {
-        font-size: 6.5rem;
+        font-size: 3.5rem;
         
     
     }
