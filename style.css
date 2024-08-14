@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter";
+    background-color: #000000;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+}
+
+.btn-1{
+    width: 200px;
+    height: 54px;
+    padding: 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 5% 0;
+    cursor: pointer;
+    
+}
+
+/* header section */
+
+/* nav section*/
+
+header{
+    max-width: 1440px;
+    margin: auto;
+}
+
+header nav{
+    /* border: 1px solid red; */
+    max-width: 1140;
+    margin:3% 2%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+header nav span{
+    color: #BD4431;
+    cursor: pointer;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+header nav ul li:first-child{
+    background-color: #E6533C;
+    border-radius: 46px;
+    
+}
+
+header nav ul li{
+    padding: 8px 20px 8px 20px;
+    cursor: pointer;
+}
+
+header nav a{
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 120%;
+
+    
+}
+
+/* hero section*/
+
+.hero{
+    /* border: 1px solid red; */
+    max-width: 1440px;
+    margin: 10% auto;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+
+}
+
+.hero .container{
+    /* border: 1px solid gray; */
+    margin: 3% 2%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1%;
+ 
+
+}
+
+
+.hero .container div{
+    width: 50%;
+    
+}
+
+
+/* hero right section*/
+.hero .container .right{
+    position: relative;
+    height: 580px;
+    background: url(/images/Images\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+   
+ 
+}
+
+.hero .container .right > div{
+    position:absolute ;
+    width:150px ;
+    height: 80px;
+    border:  1px solid rgba(255, 255, 255, 0.1);;
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255,255,255,0.1);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+
+    
+}
+
+.hero .container .right span{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 0.6rem;
+    font-weight: 400;
+    line-height: 1rem;
+    letter-spacing: 1px;
+}
+
+.hero .container .right .div-1{ 
+    right:19%; 
+    top: 24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.hero .container .right .div-2{
+    display: flex;
+    bottom: 16%;
+    left: 16%;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero .container .right .div-2 div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #BD4431;
+}
+
+/* hero left section*/
+
+
+.hero .container .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5%;
+    
+}
+
+.hero .container .left h1{
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 120%;
+
+}
+
+.hero .container .left span{
+    font-family: "Dancing Script", cursive;
+   font-style: italic;
+   font-weight: 400;
+}
+
+.hero .container .left p{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+
+.hero .container .left .btn{
+    width: 100%;
+    display: flex;
+    gap: 1%;
+}
+
+.hero .container .left .btn .btn-2{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+}
