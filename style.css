@@ -43,12 +43,13 @@ header nav {
     justify-content: space-between;
 
 }
-header nav .menu .fa{
+header nav  .fa{
     display: none;
 }
 header nav span {
     color: #BD4431;
     cursor: pointer;
+    font-size:3rem ;
 }
 
 header nav ul {
@@ -107,7 +108,7 @@ header nav a {
 .hero .container .right {
     position: relative;
     height: 580px;
-    background: url(/images/Images\ 2.png);
+    background: url(/images/Images2.png);
     background-repeat: no-repeat;
     background-position: center center;
 
@@ -141,7 +142,7 @@ header nav a {
 }
 
 .hero .container .right .div-1 {
-    right: 19%;
+    right: 15%;
     top: 24%;
     display: flex;
     justify-content: center;
@@ -200,7 +201,7 @@ header nav a {
 .hero .container .left .btn {
     width: 100%;
     display: flex;
-    gap: 1%;
+    gap: 5%;
 }
 
 .hero .container .left .btn .btn-2 {
@@ -210,7 +211,7 @@ header nav a {
 
 /* responsive header section */
 
-@media screen and (min-width:280px) and (max-width:576px) {
+@media screen and (min-width:280px) and (max-width:700px) {
 
     header {
         margin: 10% 5%;
@@ -218,8 +219,12 @@ header nav a {
 
     /* nav section */
 
-    header nav .menu .fa{
+  
+    header nav .fa{
         display: block;
+        font-size: 2.5rem;
+        padding: 15% 3%;
+       
     }
 
     header nav .menu ul {
@@ -227,7 +232,7 @@ header nav a {
     }
 
     header nav h1 {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     /* hero section */
@@ -244,7 +249,7 @@ header nav a {
     }
 
     .hero .container .left h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .hero .container .left p {
@@ -262,14 +267,15 @@ header nav a {
     }
 
     .hero .container .right {
-
+        width: 100%;
+        
         margin-top: 10%;
 
     }
 
 
     .hero .container .right .div-1 {
-        right: 1%;
+        right: -6%;
         top: 10%;
         /* display: flex;
         justify-content: center;
@@ -287,3 +293,40 @@ header nav a {
 
 
 }
+
+@media screen and  (max-width:992px){
+
+    .hero .container {
+
+        flex-direction: column;
+        
+
+    }
+    .hero .container>div {
+        width: 100%;
+    }
+    .hero .container .left{
+        width: 85%;
+        margin: auto;
+    }
+    .hero .container .left p {
+        margin: 5% auto;
+        font-size: 2rem;
+        
+    }
+    .hero .container .left h1 {
+        font-size: 6.5rem;
+        
+    
+    }
+    
+
+   
+
+  
+
+   
+
+}
+
+
