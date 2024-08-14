@@ -483,7 +483,7 @@ header nav a {
     
 }
 .training .tittle h1{
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 2% 0;
 }
 
@@ -496,8 +496,8 @@ header nav a {
 
 .training .cards > div{
     position: relative;
-    max-width: 500px;
     height: 100%;
+   
     
     
 }
@@ -534,9 +534,11 @@ header nav a {
 .training .cards div:nth-child(1) .overlay{
     background: rgba(6, 255, 210, 0.5)
 }
+
 .training .cards div:nth-child(2) .overlay{
     background:rgba(255, 0, 0, 0.4) ;
 }
+
 .training .cards div:nth-child(3) .overlay{
     background:rgba(0, 0, 0, 0.3) ;
 }
@@ -577,6 +579,139 @@ header nav a {
     bottom: 10%;
     left: 10%;
  }
+
+
+ /* main bmi section */
+
+ main{
+    width: 100%;
+ }
+
+ .bmi .tittle{
+   
+    width: 90%;
+    margin:5% auto;
+    text-align: center;
+ }
+
+ .bmi .tittle h1{
+    font-size: 2rem;
+    margin: 2% 0;
+}
+
+.bmi .tittle p{
+    font-size: 1.2rem;
+    color: rgba(255,255,255,0.5);
+ 
+    
+}
+
+.bmi .calculator{
+    width: 100%;
+    background: rgba(34, 34, 34,1);
+    
+
+}
+
+.bmi .calculator .container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10% 5%;
+    gap:10px
+  
+}
+.bmi .calculator .container h3{
+    font-size: 1.5rem;
+    font-weight: 900;
+    
+}
+.bmi .calculator .container .left h3{
+    margin-left: 1%;
+}
+
+
+.bmi .calculator .container .left table{
+    max-width: 100%;
+    margin-top: 10%;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+}
+
+.bmi .calculator .container .left table,tr,th,td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.bmi .calculator .container .left table th{
+    color:rgba(255, 255, 255, 0.7); ;
+}
+.bmi .calculator .container .right p{
+    color: rgba(255,255,255,0.5);
+    font-size: 0.9rem;
+    margin: 2% 0;
+    margin-bottom: 5%;
+}
+.bmi .calculator .container .right{
+    width: 50%;
+    
+}
+
+.bmi .calculator .container .right form input,select{
+    display: inline-block;
+    width: 40%;
+    border: none;
+    border-radius: 8px;
+    color:rgba(255,255,255,0.3); ;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 40px 12px 20px;
+    margin: 5px 0;
+    cursor: pointer;
+    
+}
+.bmi .calculator .container .right form #activity{
+    width: 81%;
+    
+}
+
+/* responsive bmi calculator section*/
+
+@media screen and (min-width:280px) and (max-width:860px) {
+    .bmi .calculator .container{
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+      
+    }
+    .bmi .calculator .container .left {
+        width: 100%;
+        margin: auto;
+    }
+    .bmi .calculator .container .right {
+        width: 100%;
+        margin: 10% auto;
+    }
+
+    
+}
+
+@media screen and (min-width:280px) and (max-width:600px){
+    .bmi .calculator .container h3{
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .bmi .calculator .container .right p{
+        font-size: 0.7rem;
+    }
+}
+
 
 
 
