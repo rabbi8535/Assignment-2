@@ -353,7 +353,7 @@ header nav a {
 }
 
 .habit .cards{
-    width: 90%;
+    width: 100%;
     margin-top: 7%;
     display: flex;
     gap: 30px;
@@ -390,9 +390,8 @@ header nav a {
 /* main runnig section*/
 
 .runing{
-    width: 85%;
+    width: 90%;
     margin: 5% auto;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -407,16 +406,17 @@ header nav a {
 
 .runing .tittle{
     width: 50%;
+    padding-left: 5%;
     
 }
 .runing .tittle h1{
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 900;
     margin: 14px 0px;
 }
 
 .runing .tittle p{
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: rgba(255,255,255,0.5);
     margin: 14px 0px;
 }
@@ -450,15 +450,16 @@ header nav a {
         margin: auto;
         flex-direction: column;
         justify-content: center;
+        padding: 0;
        
     }
     .runing .img {
-        width: 100%;
+        max-width: 90vw;
         margin: auto;
         
     }
     .runing .img img{
-        width: 90%;
+        width:95%;
        
     }
     .runing button{
@@ -467,4 +468,115 @@ header nav a {
         font-size: 1rem;
     }
 }
+
+
+/* main training section*/
+
+.training{
+    width: 90%;
+    margin:10% auto;
+}
+
+.training .tittle{
+    display: flex;
+    flex-direction: column;
+    
+}
+.training .tittle h1{
+    font-size: 2.5rem;
+    margin: 2% 0;
+}
+
+.training .tittle p{
+    font-size: 1.2rem;
+    color: rgba(255,255,255,0.5);
+    margin: 2% 0;
+    margin-bottom: 10%;
+}
+
+.training .cards > div{
+    position: relative;
+    max-width: 500px;
+    height: 100%;
+    
+    
+}
+.training .cards  img{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.training .cards > div h1{
+    
+    font-size: 0.4rem;
+    position: absolute;
+    font-weight: 500;
+    
+}
+.training .cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+.training .cards .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+    
+}
+
+.training .cards div:nth-child(1) .overlay{
+    background: rgba(6, 255, 210, 0.5)
+}
+.training .cards div:nth-child(2) .overlay{
+    background:rgba(255, 0, 0, 0.4) ;
+}
+.training .cards div:nth-child(3) .overlay{
+    background:rgba(0, 0, 0, 0.3) ;
+}
+.training .cards div:nth-child(4) .overlay{
+    background:rgba(0, 0, 0, 0.5) ;
+   
+}
+.training .cards div:nth-child(5) .overlay{
+    background:rgba(66, 255, 0, 0.3) ;
+    
+}
+.training .cards div:nth-child(6) .overlay{
+    background: rgba(0, 71, 255, 0.3) ;
+    
+}
+.training .cards div:nth-child(1) h1{
+    bottom: 10%;
+    left: 10%;
+   color:rgba(0,0,0) ;
+}
+.training .cards div:nth-child(2) h1{
+    top: 10%;
+    left: 10%;
+ }
+ .training .cards div:nth-child(3) h1{
+    bottom: 10%;
+    left: 10%;
+ }
+ .training .cards div:nth-child(4) h1{
+    top: 10%;
+    right: 10%;
+ }
+ .training .cards div:nth-child(5) h1{
+    bottom: 10%;
+    left: 10%;
+ }
+ .training .cards div:nth-child(6) h1{
+    bottom: 10%;
+    left: 10%;
+ }
+
+
 
