@@ -254,14 +254,14 @@ header nav a {
 
     .hero .container .left p {
         margin: 5% auto;
-        font-size: 1.3rem;
+        font-size: 0.7rem;
     }
 
     .btn-1 {
         width: 150px;
         height: 40px;
         padding: 10px 40px;
-        font-size: 0.6rem;
+        font-size: 0.5rem;
 
 
     }
@@ -294,7 +294,7 @@ header nav a {
 
 }
 
-@media screen and (max-width:701px)  (max-width:992px){
+@media screen and (min-width:701px) and  (max-width:992px){
 
     .hero .container {
 
