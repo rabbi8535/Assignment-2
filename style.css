@@ -268,8 +268,7 @@ header nav a {
 
     .hero .container .right {
         width: 100%;
-        
-        margin-top: 10%;
+        margin-top: 15%;
 
     }
 
@@ -320,13 +319,68 @@ header nav a {
     
     }
     
-
-   
-
-  
-
-   
-
 }
 
+
+/* main section*/
+.main{
+    max-width: 1440px;
+    margin: 10% auto;
+}
+
+/* main habit section*/
+
+.habit{
+    border: 1px solid red;
+    margin: 5%;
+}
+
+.habit .tittle{
+    text-align: center;
+}
+
+.habit .tittle h1{
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 14px 0px;
+}
+
+.habit .tittle p{
+    font-size: 1rem;
+    color: rgba(255,255,255,0.5);
+    margin: 14px 0px;
+}
+
+.habit .cards{
+    margin-top: 7%;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.habit .cards img{
+    width: 80%;
+    clip-path: circle(50%);
+}
+
+.habit .cards > div{
+    max-width: 231px;
+    max-height: 274px;
+    text-align: center;
+}
+
+.habit .cards h1{
+    font-size: 0.9rem;
+    font-weight: 900;
+    margin: 10px 0px;
+}
+
+.habit .cards p{
+    font-size: 0.7rem;
+    color: rgba(255,255,255,0.5);
+    margin: 10px 0px;
+}
 
