@@ -212,12 +212,12 @@ header nav a {
 /* responsive header section */
 
 @media screen and (min-width:280px) and (max-width:700px) {
-
+    
     header {
-        margin: 10% auto;
+        margin: 5% auto;
     }
 
-    /* nav section */
+   
 
   
     header nav .fa{
@@ -580,6 +580,21 @@ header nav a {
     left: 10%;
  }
 
+/* responsive for training section */
+ @media screen and (min-width:280px) and (max-width:700px) {
+
+    .training .cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .training .cards div:nth-child(3) {
+        display: none;
+     }
+     .training .cards div:nth-child(6) {
+        display: none;
+     }
+ }
+
 
  /* main bmi section */
 
@@ -744,13 +759,14 @@ header nav a {
     max-width: 450px;
     max-height: 400px;
 
+
 }
 
 .team .cards div img{
     width: 100%;
     height: 100%;
     border-radius: 16px;
-    
+    object-fit: cover;
     
 }
 
